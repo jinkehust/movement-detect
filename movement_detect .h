@@ -15,7 +15,7 @@ Mat background;
 int main()  
 {  
           
-	VideoCapture video(0);//定义VideoCapture类video  
+    VideoCapture video(0);//定义VideoCapture类video  
     if (!video.isOpened())  //对video进行异常检测  
     {  
 		 cout << "video open error!" << endl;  
